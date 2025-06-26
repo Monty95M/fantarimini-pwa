@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FantaRimini</title>
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#ff5500" />
+</head>
+<body>
+  <h1>Benvenuto su FantaRimini!</h1>
+  <p>Questa è la tua PWA di prova.</p>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log('Service Worker registrato'))
+        .catch(err => console.log('Errore service worker', err));
+    }
+  </script>
+</body>
+</html>
