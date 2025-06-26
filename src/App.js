@@ -10,14 +10,16 @@ const eventList = [
   { name: "Fa da spalla", value: 1 },
   { name: "Beach volley vinto", value: 0.5 },
   { name: "Pomicia", value: 3 },
-  { name: "Conclude", value: 5 },
+  { name: "Conclude", value: 10 },
   { name: "Brutta figura", value: -2 },
   { name: "Rimbalzato", value: -1 },
   { name: "Eroe serata", value: 2 },
   { name: "Aiuta amico ubriaco", value: 1 },
   { name: "Sveglia dopo le 13", value: -0.5 },
   { name: "Drink 5+", value: 1 },
-  { name: "Rientra prima di mezzanotte", value: -1 },
+  { name: "Offre drink + pomiciata", value: 3 },
+  { name: "Offre drink senza pomiciata", value: -2 },
+  { name: "Raccontastorie", value: -3 },
 ];
 
 export default function App() {
