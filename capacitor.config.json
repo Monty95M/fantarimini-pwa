@@ -1,0 +1,6 @@
+{
+  "appId": "com.fantarimini.app",
+  "appName": "FantaRimini",
+  "webDir": "build",
+  "bundledWebRuntime": false
+}
