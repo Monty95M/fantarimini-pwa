@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 const initialPlayers = [
-  "Mirko", "Didier", "Pablo", "Carboni", "Doc", "Cesare",
+  "Mounty", "Didier", "Pablo", "Carboni", "Doc", "Cesare",
   "Magro", "Quoccie", "Tambu", "Lucchetti", "Gulla", "Gheometra"
 ].map(name => ({ name, points: 0 }));
 
